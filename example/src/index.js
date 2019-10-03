@@ -4,7 +4,7 @@ import Resizer from './Resizer.js'
 
 class App extends PureComponent {
   render () {
-    return <Resizer />;
+    return <div><Resizer /><Resizer /></div>;
   }
 }
 

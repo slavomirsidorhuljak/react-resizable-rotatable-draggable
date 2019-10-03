@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export default styled.div`
   	border: 1px solid #f0c051;
     background-color:#f0c051;
+    margin-bottom: 1em;
 
   .square {
     position: absolute;

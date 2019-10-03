@@ -61,7 +61,7 @@ class Resizer extends PureComponent {
       // onDragStart: this.handleDragStart,
       //onDrag: this.handleDrag
       // onDragEnd: this.handleDragEnd,
-    }} />
+    }} ><div>asdsadasd</div></ResizableRect>
   }
 }
 
