@@ -1,16 +1,17 @@
 import styled from 'styled-components'
 
 export default styled.div`
-  position: absolute;
-  border: 1px solid #eb5648;
+  	border: 1px solid #f0c051;
+    background-color:#f0c051;
 
   .square {
     position: absolute;
     width: 7px;
-    height: 7px;
+    height: 14px;
     background: white;
-    border: 1px solid #eb5648;
+    border: 1px solid #000;
     border-radius: 1px;
+    background-color:#000;
   }
 
   .resizable-handler {
@@ -78,6 +79,7 @@ export default styled.div`
   .bl,
   .br {
     bottom: -3px;
+    width:14px;
   }
 
   .r,
@@ -102,5 +104,6 @@ export default styled.div`
   .b {
     left: 50%;
     margin-left: -3px;
+    height:7px;
   }
 `
